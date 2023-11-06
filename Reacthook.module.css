@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+
+#maindiv{
+    height: 600px;
+    width: 400px;
+    border: 2px solid rgb(16, 2, 2);
+    border-color: rgb(68, 255, 0);
+    
+}
+
+input{
+   border-radius: 8px;
+   border: 2px solid red;
+   height: 30px;
+   margin-left: 100px;
+   width: 250px;
+   margin-top: 20px;
+}
+small{
+    color: green;
+
+}
+
+input::placeholder{
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
