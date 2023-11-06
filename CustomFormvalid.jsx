@@ -24,7 +24,7 @@ function CustomFormvalid() {
 
     // ^ mob validation
     if(!fdata.mob){
-        errorMessage.mobMessage="mobile is mendatory"
+        errorMessage.mobMessage="mobile is mendatory "
     }
     return errorMessage;
 
