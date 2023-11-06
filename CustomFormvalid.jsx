@@ -19,7 +19,7 @@ function CustomFormvalid() {
         errorMessage.fnMessage="full name is required";
     }
     else if(fdata.fn.length<6){
-        errorMessage.fnMessage="should contain atlleasst 6 characyter";
+        errorMessage.fnMessage="should contain atleast 6 character";
     }
 
     // ^ mob validation
